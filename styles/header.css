@@ -37,6 +37,7 @@ header .headerNav .rightElements button {
   padding: 8px 14px;
   margin-right: 20px;
   border-radius: 6px;
+  cursor: pointer;
 }
 header .headerNav .rightElements .requestButton {
   border: 1px solid #fff;
