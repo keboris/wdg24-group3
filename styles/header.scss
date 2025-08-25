@@ -54,7 +54,7 @@ header {
   }
 
   .searchHeader {
-    padding: 80px 0;
+    padding: 80px 20px;
     background-color: #dadbf1;
     min-height: 100px;
     display: flex;
@@ -70,7 +70,7 @@ header {
 
     input#searchInputField {
       padding: 12px;
-      width: 40em;
+      max-width: 40em;
       max-width: 90%;
       border: none;
     }
