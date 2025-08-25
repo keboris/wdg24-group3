@@ -1,0 +1,12 @@
+/*** RESET CSS ***/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  border: 1px solid black;
+  margin: auto;
+  max-width: 1400px;
+}
