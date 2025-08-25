@@ -1,6 +1,51 @@
 footer {
   background: #000;
   min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 60px;
+}
+footer .FooterNavAbstract,
+footer .FooterNavResources,
+footer .FooterNavCommunity,
+footer .FooterNavCompany,
+footer .FooterNavCopyright {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+footer .FooterNavAbstract ul,
+footer .FooterNavResources ul,
+footer .FooterNavCommunity ul,
+footer .FooterNavCompany ul,
+footer .FooterNavCopyright ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+footer .FooterNavAbstract ul li,
+footer .FooterNavResources ul li,
+footer .FooterNavCommunity ul li,
+footer .FooterNavCompany ul li,
+footer .FooterNavCopyright ul li {
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline;
+  padding: 5px;
+}
+footer .FooterNavAbstract ul li a,
+footer .FooterNavAbstract ul li a:active,
+footer .FooterNavResources ul li a,
+footer .FooterNavResources ul li a:active,
+footer .FooterNavCommunity ul li a,
+footer .FooterNavCommunity ul li a:active,
+footer .FooterNavCompany ul li a,
+footer .FooterNavCompany ul li a:active,
+footer .FooterNavCopyright ul li a,
+footer .FooterNavCopyright ul li a:active {
+  color: #fff;
+  text-decoration: none;
+}
+footer .FooterNavCopyright {
+  align-self: flex-end;
 }
 
 /*# sourceMappingURL=footer.css.map */
