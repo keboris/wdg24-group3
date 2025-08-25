@@ -20,16 +20,19 @@
           </ul>
 
           <section class="rightElements">
-            <button>Submit a request</button>
-            <button>Sign in</button>
+            <button class="requestButton">Submit a request</button>
+            <button class="signInButton">Sign in</button>
           </section>
         </nav>
 
         <div class="searchHeader">
+
           <h1>How can we help?</h1>
-          <form>
-            <input type="text" class="searchInput" placeholder="Eingabe" />
-            <button>></ybutton>
+
+          <form class="searchHeaderForm">
+            <label for="searchInputField" style="display:none;">Search</label>
+            <input type="text" name="searchInput" id="searchInputField"  placeholder="Eingabe" />
+            <button type="submit">></ybutton>
           </form>
 
         </div>
