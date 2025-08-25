@@ -1,0 +1,42 @@
+.categories {
+  padding: 3rem 2rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+.card {
+  display: flex;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.card figure img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin: 0;
+}
+
+.card article {
+  flex: 1;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.card p {
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+.card a {
+  color: #4a3aff;
+  text-decoration: none;
+  font-weight: bold;
+}
