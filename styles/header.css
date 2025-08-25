@@ -14,7 +14,7 @@ header h1 {
 header .headerNav {
   background-color: #000;
   color: #fff;
-  padding: 10px 0;
+  padding: 10px 60px;
   display: flex;
   justify-content: space-between;
 }
