@@ -1,0 +1,24 @@
+{
+  "name": "wdg24-group3",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/keboris/wdg24-group3#readme",
+  "bugs": {
+    "url": "https://github.com/keboris/wdg24-group3/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keboris/wdg24-group3.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+"scripts": {
+  "sass": "sass styles/header.scss styles/header.css && sass styles/footer.scss styles/footer.css",
+  "sass:watch": "sass --watch styles/header.scss:styles/header.css styles/footer.scss:styles/footer.css"
+},
+  "dependencies": {
+    "scss": "^0.2.4"
+  }
+}
