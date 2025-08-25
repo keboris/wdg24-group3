@@ -17,6 +17,7 @@ header .headerNav {
   padding: 10px 60px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 header .headerNav ul.leftElements {
   list-style: none;
