@@ -1,10 +1,54 @@
+header {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header li,
+header ul,
+header a {
+  color: #fff;
+}
+header h1 {
+  font-size: 3em;
+  font-weight: 200;
+  padding-bottom: 20px;
+}
 header .headerNav {
   background-color: #000;
-  min-height: 80px;
+  color: #fff;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+header .headerNav ul.leftElements {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+header .headerNav ul.leftElements li {
+  padding: 5px;
+}
+header .headerNav ul.leftElements li a {
+  text-decoration: none;
+}
+header .headerNav .rightElements {
+  display: flex;
+  align-items: center;
+}
+header .headerNav .rightElements button {
+  padding: 3px 10px;
+  margin-right: 20px;
 }
 header .searchHeader {
+  padding: 80px 0;
   background-color: #dadbf1;
   min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header .searchHeader .searchInput {
+  padding: 12px;
+  width: 40em;
+  max-width: 90%;
 }
 
 /*# sourceMappingURL=header.css.map */
