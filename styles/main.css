@@ -1,4 +1,6 @@
 .categories {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   padding: 3rem 2rem;
 }
 .grid {
@@ -9,8 +11,6 @@
 .card {
   display: flex;
   padding: 1rem;
-  border: 1px solid #ddd;
-  border-radius: 8px;
   display: flex;
   align-items: flex-start;
   gap: 1rem;
