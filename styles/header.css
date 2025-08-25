@@ -1,0 +1,10 @@
+header .headerNav {
+  background-color: #000;
+  min-height: 80px;
+}
+header .searchHeader {
+  background-color: #dadbf1;
+  min-height: 100px;
+}
+
+/*# sourceMappingURL=header.css.map */
