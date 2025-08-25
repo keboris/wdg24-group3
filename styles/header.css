@@ -17,6 +17,7 @@ header .headerNav {
   padding: 10px 60px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 header .headerNav ul.leftElements {
   list-style: none;
@@ -50,7 +51,7 @@ header .headerNav .rightElements .signInButton {
   color: #fff;
 }
 header .searchHeader {
-  padding: 80px 0;
+  padding: 80px 20px;
   background-color: #dadbf1;
   min-height: 100px;
   display: flex;
@@ -65,7 +66,7 @@ header .searchHeader form.searchHeaderForm {
 }
 header .searchHeader input#searchInputField {
   padding: 12px;
-  width: 40em;
+  max-width: 40em;
   max-width: 90%;
   border: none;
 }
