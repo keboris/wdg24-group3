@@ -14,11 +14,11 @@
   "author": "",
   "type": "commonjs",
   "main": "index.js",
-"scripts": {
-  "sass": "sass styles/header.scss styles/header.css && sass styles/footer.scss styles/footer.css",
-  "sass:watch": "sass --watch styles/header.scss:styles/header.css styles/footer.scss:styles/footer.css"
-},
-  "dependencies": {
-    "scss": "^0.2.4"
+  "scripts": {
+    "sass": "sass styles/header.scss styles/header.css && sass styles/footer.scss styles/footer.css",
+    "sass:watch": "sass --watch styles/header.scss:styles/header.css styles/footer.scss:styles/footer.css"
+  },
+  "devDependencies": {
+    "sass": "^1.91.0"
   }
 }
