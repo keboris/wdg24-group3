@@ -39,14 +39,8 @@
   font-weight: bold;
 }
 
-@media (max-width: 992px) {
-  /*.grid {
-  grid-template-columns: repeat(1, 1fr);
-}*/
-}
-
-@media (max-width: 576px) {
+@media (max-width: 800px) {
   .grid {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr;
   }
 }
