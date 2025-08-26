@@ -9,8 +9,6 @@
 .card {
   display: flex;
   padding: 1rem;
-  border: 1px solid #ddd;
-  border-radius: 8px;
   display: flex;
   align-items: flex-start;
   gap: 1rem;
@@ -39,4 +37,16 @@
   color: #4a3aff;
   text-decoration: none;
   font-weight: bold;
+}
+
+@media (max-width: 992px) {
+  /*.grid {
+  grid-template-columns: repeat(1, 1fr);
+}*/
+}
+
+@media (max-width: 576px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
